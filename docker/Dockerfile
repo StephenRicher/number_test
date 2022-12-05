@@ -8,4 +8,5 @@ RUN apt-get update && \
     cd number_test/ && python3 -m pip install . && \
     apt-get autoremove -y && apt-get clean
 
-CMD ["/bin/bash"]
+CMD ["number_test"]
+
