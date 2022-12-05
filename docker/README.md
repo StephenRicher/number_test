@@ -16,7 +16,7 @@ Follow the general installation instructions [on the Docker site](https://docs.d
 ```
 mkdir number_test-docker
 cd number_test-docker
-wget https://github.com/StephenRicher/number_test/master/docker/Dockerfile
+wget https://raw.githubusercontent.com/StephenRicher/number_test/main/docker/Dockerfile
 docker build -t number_test .
 ```
 
