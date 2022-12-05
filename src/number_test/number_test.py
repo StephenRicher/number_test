@@ -8,9 +8,6 @@ import number_test.utils as utils
 
 logger = logging.getLogger(__name__)
 
-# Functions directly accessible from module level
-__all__ = ['prime', 'fibonacci']
-
 
 def prime(number: int = 42) -> bool:
     """Check if a number is prime.

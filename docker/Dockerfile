@@ -7,4 +7,5 @@ RUN apt-get update && \
     git clone --recursive --depth 1 https://github.com/StephenRicher/number_test && \
     cd number_test/ && python3 -m pip install . && \
     apt-get autoremove -y && apt-get clean
+
 CMD ["/bin/bash"]
