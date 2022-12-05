@@ -2,7 +2,7 @@
 
 This directory contains a `Dockerfile` to make it easy to build and run Number Test via [Docker](https://www.docker.com/).
 
-## Installing Docker
+## 1. Install Docker
 
 Follow the general installation instructions [on the Docker site](https://docs.docker.com/install/):
 
@@ -10,7 +10,7 @@ Follow the general installation instructions [on the Docker site](https://docs.d
 * [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 * [Windows](https://docs.docker.com/docker-for-windows/install/)
 
-## Using the CLI of Number Test via Docker
+## 2. Build the Image
 
 ```shell
 mkdir number_test-docker
@@ -21,13 +21,13 @@ docker build -t number_test .
 
 where `number_test` is the desired Docker image name.
 
-Run the CLI from the container:
+## 3. Run the CLI
 
 ```shell
-docker run --rm -it number_test
+docker run --rm -it number_test --help
 ```
 
-To run the container through a shell use the following command:
+Alternatively, to run the image through a shell use the following command:
 
 ```shell
 docker run --rm -it --entrypoint /bin/bash number_test

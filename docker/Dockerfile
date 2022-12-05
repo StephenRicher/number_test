@@ -8,5 +8,5 @@ RUN apt-get update && \
     cd number_test/ && python3 -m pip install . && \
     apt-get autoremove -y && apt-get clean
 
-CMD ["number_test"]
+ENTRYPOINT ["number_test"]
 
