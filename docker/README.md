@@ -27,7 +27,7 @@ where `number_test` is the desired Docker image name.
 docker run --rm -it number_test --help
 ```
 
-Alternatively, to run the image through a shell use the following command:
+Alternatively, to run the image without the CLI, use the following command:
 
 ```shell
 docker run --rm -it --entrypoint /bin/bash number_test
