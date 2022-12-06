@@ -73,7 +73,22 @@ See [here](./docker/README.md) for detailed guidance.
 
 ## Usage
 
-Some simple examples of basic usage.
+```console
+stephen@pc:$ number_test --help
+usage: number_test [-h] [--version] [--verbose] [number]
+
+Boilerplate package with example numerical tests.
+
+positional arguments:
+  number      A number to test primality (default: 42)
+
+optional arguments:
+  -h, --help  show this help message and exit
+  --version   show program's version number and exit
+  --verbose   verbose logging for debugging
+
+Stephen Richer, (stephen.richer@proton.me)
+```
 
 ## Contributing
 

@@ -13,7 +13,6 @@ def _executeCommand(args):
     logFormat = '%(asctime)s - %(levelname)s - %(funcName)s - %(message)s'
     logging.basicConfig(level=args.verbose, format=logFormat)
     del args.verbose
-    del args.command
     # Pop main function and excute script
     function = args.__dict__.pop('function')
     start = default_timer()
