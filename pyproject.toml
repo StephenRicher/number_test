@@ -34,5 +34,5 @@ dependencies = [
 repository = 'https://github.com/StephenRicher/number_test'
 
 [project.scripts]
-number_test = "number_test.cli:parseArgs"
+number_test = "number_test.cli:main"
 
